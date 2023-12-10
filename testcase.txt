@@ -1,0 +1,41 @@
+newnode n0 0
+newnode n1 30
+newnode n2 65
+newnode n3 110
+newnode n4 160
+newnode n5 230
+join n0 None
+join n1 n0
+join n2 n1
+join n3 n2
+join n4 n3
+join n5 n4
+prettyprintFinger n0
+prettyprintFinger n1
+prettyprintFinger n2
+prettyprintFinger n3
+prettyprintFinger n4
+prettyprintFinger n5
+insert n0 3 3
+insert n1 200
+insert n2 123
+insert n3 45 3
+insert n4 99
+insert n2 60 10
+insert n0 50 8
+insert n3 100 5
+insert n3 101 4
+insert n3 102 6
+insert n5 240 8
+insert n5 250 10
+newnode n6 100
+join n6 n0
+lookupall n0
+lookupall n2
+lookupall n6
+find n0 45
+find n2 99
+find n0 105
+remove n0 50
+remove n1 105
+prettyprintKeys n0
