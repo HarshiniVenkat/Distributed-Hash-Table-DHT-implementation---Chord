@@ -28,8 +28,10 @@ insert n3 101 4
 insert n3 102 6
 insert n5 240 8
 insert n5 250 10
+prettyprintKeys n5
 newnode n6 100
 join n6 n0
+prettyprintKeys n6
 lookupall n0
 lookupall n2
 lookupall n6
@@ -38,4 +40,3 @@ find n2 99
 find n0 105
 remove n0 50
 remove n1 105
-prettyprintKeys n0
